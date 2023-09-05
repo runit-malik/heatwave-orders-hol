@@ -23,44 +23,49 @@
           "title": "Lab 2: Create Compute with MySQL Shell",
           "filename": "../../create-compute-with-mysqlsh/create-compute-with-mysqlsh.md"
         },
+
+        {
+          "title": "Lab 3: Create Oracle Analytics Cloud Instance",
+          "filename": "../../create-oac-instance/create-oac-instance.md"  
+        },
         
         {
-          "title": "Lab 3: Upload data to Object Storage for HeatWave Lakehouse",
+          "title": "Lab 4: Upload data to Object Storage for HeatWave Lakehouse",
           "filename": "../../create-lakehouse-files/create-lakehouse-files.md"  
         },
 
         {
-          "title": "Lab 4: Add HeatWave Cluster to the DB sytem",
+          "title": "Lab 5: Add HeatWave Cluster to the DB sytem",
           "filename": "../../add-heatwave-cluster/add-heatwave-cluster.md"
         },
         
         {
-          "title": "Lab 5: Load data into HeatWave Cluster ",
+          "title": "Lab 6: Load data into HeatWave Cluster ",
           "filename": "../../load-db-heatwave-cluster/load-db-heatwave-cluster.md"
         },
 
         {
-          "title": "Lab 6: Load CSV data from OCI Object Store",
+          "title": "Lab 7: Load CSV data from OCI Object Store",
           "filename": "../../load-csv-data/load-csv-data.md"  
         },
 
         {
-          "title": "Lab 7: Load Parquet format data directly from Object Store ",
+          "title": "Lab 8: Load Parquet format data directly from Object Store ",
           "filename": "../../load-parquet-data/load-parquet-data.md"
         },
 
         {
-          "title": "Lab 8: Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave ",
-          "filename": "../../oac-visualization/oac-visualization.md"
+          "title": "Lab 9: Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave ",
+          "filename": "../../visualize-oac/visualize-oac.md"
         },
         
         {
-          "title": "Lab 9: (Bonus) Develop MySQL HeatWave Apps with LAMP",
+          "title": "Lab 10: (Bonus) Develop MySQL HeatWave Apps with LAMP",
           "filename": "../../develop/develop.md"
         }, 
 
         {
-          "title": "Lab 10: Stop OCI Services",
+          "title": "Lab 11: Stop OCI Services",
           "filename": "../../stop-services/stop-services.md"
         },
 

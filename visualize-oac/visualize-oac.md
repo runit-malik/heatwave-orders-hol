@@ -15,88 +15,16 @@ _Estimated Time:_ 20 minutes
 
 In this lab, you will be guided through the following tasks:
 
-- Create Oracle Analytics Cloud and connect to MySQL HeatWave
-- Create a dashboard on OAC for the delivery-orders
+- Create a heatmap on OAC for the store_orders table
+- Create a sunburst chart on OAC for the delivery_orders and DELIVERY_VENDORS tables
 
 ### Prerequisites
 
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
-- Completed Lab ______
+- Completed Lab 8
 
-## Task 1: Create an Oracle Analytics Cloud Instance
-
-1. From the OCI Console, nagivate to Analytics & AI > Analytics Cloud
-    ![analytics menu](./images/analytics-menu.png " analytics menu")
-
-2. Select the **lakehouse** Compartment and Click the **Create Instance** button
-    ![create analytics instance](./images/create-instance-oac.png " create analytics instance")
-    
-3. On the Create Analytics Instance enter the required information as shown below
-
-    Name:
-     ```bash
-    <copy>hwoac</copy>
-     ```
-
-    Description:
-    ```bash
-    <copy>Oracle Analytics Cloud HeatWave Test</copy>
-     ```
-
-    Capacity: Select **OCPU** and select **1**
-
-    License and Edition:
-        - Select **License Included**
-        - Select **Enterprise Edition**
-
-4. Click the **Create** button
-    ![oac config](./images/config-oac.png " oac config")
-
-5. It takes about 12-15 minutes for the OAC instance creation to complete
-    ![created oac](./images/created-oac.png " created oac")
-
-## Task 2: Configure Private Access Channel
-
-1. Go down to the “Private Access Channel” resources page and click on the **Configure Private Access Channel** button.
-
-2. Click the **Create Private Access Channel** button
-
-3. On the create Private Access Channel page enter the following:
-
-    Name:
-    ```bash
-    <copy>hwoacpac</copy>
-     ```
-
-     DNS Zones: **Check Virtual Cloud Network's domain name as DNS zone (hwvcn.oraclevcn.com)**
-
-    Description:
-    ```bash
-    <copy>Testing</copy>
-     ```
-
-     **Remove second DNS Zone entry**
-    ![config pac oac](./images/config-pac-oac.png " config pac oac")
-
-4. Click the **Configure** button
-
-5. Wait 15 minutes for the configuration process to complete before proceeding to Task 3.
-    ![created pac oac](./images/created-pac-oac.png " created pac oac")
-
-## Task 3: Get HeatWave DB Hostname
-
-1. Before we start, go to Menu > Databases > DB Systems
-
-2. Select HeatWave database: **heatwave-db**
-
-3. Click on the "Connections" tab on the Endpoints > Internal FQDN > Click on the Copy link.
-    ![hw db endpoint](./images/hw-db-endpoint.png " hw db endpoint")
-
-4. Save the Hostname in your notepad for use with OAC
-    Example: **hwdb.sub09012...hwvcn.oraclevcn.com**
-
-## Task 4: Create Connection from HeatWave DB to OAC
+## Task 1: Create Connection from HeatWave DB to OAC
 
 1. Navigate to Menu > Analytics > Analytics Clouds
 
@@ -125,7 +53,7 @@ In this lab, you will be guided through the following tasks:
 7. The completed connection will display a "New Dataset" page. Click on the **Schemas** link and select the **mysql\_customer\_orders** schema
     ![open schema](./images/open-schema.png " open schema")
 
-## Task 5: Use OAC to Analyze the store_orders table data
+## Task 2: Use OAC to Analyze the store_orders table data
 
 1. Drag and drop the **store\_orders** table from the sidebar into the **New Dataset** page.
     ![drag drop store orders](./images/drag-drop-store-orders.png " drag drop store orders")
@@ -155,7 +83,7 @@ Your final visualization should look like this:
 
 9. Let's review our map and determine how it can be used to aggregate total sales by country or by region. 
 
-## Task 6: Use OAC to Analyze the delivery\_orders and DELIVERY\_VENDORS table data
+## Task 3: Use OAC to Analyze the delivery orders and DELIVERY VENDORS tables
 
 1. From the Oracle Analytics Cloud Homepage, click on the **HeatWave** Connection we created earlier in the lab.
     ![select heatwave connection](./images/select-heatwave-connection.png " select heatwave connection")
