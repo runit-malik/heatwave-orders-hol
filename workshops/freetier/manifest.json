@@ -50,12 +50,17 @@
         },
 
         {
-          "title": "Lab 8: (Bonus) Develop MySQL HeatWave Apps with LAMP",
+          "title": "Lab 8: Build a real-time dashboard in Oracle Analytics Cloud with MySQL HeatWave ",
+          "filename": "../../oac-visualization/oac-visualization.md"
+        },
+        
+        {
+          "title": "Lab 9: (Bonus) Develop MySQL HeatWave Apps with LAMP",
           "filename": "../../develop/develop.md"
         }, 
 
         {
-          "title": "Lab9: Stop OCI Services",
+          "title": "Lab 10: Stop OCI Services",
           "filename": "../../stop-services/stop-services.md"
         },
 
