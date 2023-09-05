@@ -22,7 +22,7 @@ In this lab, you will be guided through the following tasks:
 
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
-- Completed Lab *insert Lab number*
+- Completed Lab ______
 
 ## Task 1: Create an Oracle Analytics Cloud Instance
 
@@ -116,8 +116,8 @@ In this lab, you will be guided through the following tasks:
     - Specify the hostname of heatwave-db
     - Use the FQDN information you save in Step 3
     - Port: 3306
-    - Database Name: **insert db name**
-    - Be sure to use the Heatwave db user name and password
+    - Database Name: mysql_customer_orders
+    - Be sure to use the Heatwave DB username and password
 
     Hit the "Save" button to fisnish creating the connection.
     ![config add connection mysql](./images/config-add-connection-mysql.png " config add connection mysql")
@@ -161,6 +161,6 @@ Your final visualization should look like this:
 
 ## Acknowledgements
 
-- **Author** - Perside Foster, MySQL Principal Solution Engineer
-- **Contributors** - Runit Malik, MySQL Cloud Solution Engineer
+- **Author** - Runit Malik, MySQL Cloud Solution Engineer
+- **Contributors** - Perside Foster, MySQL Principal Solution Engineer
 - **Last Updated By/Date** - Runit Malik, MySQL Cloud Solution Engineer, September 2023
