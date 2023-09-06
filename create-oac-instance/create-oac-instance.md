@@ -92,10 +92,10 @@ In this lab, you will be guided through the following tasks:
 3. Click on the "Connections" tab on the Endpoints > Internal FQDN > Click on the Copy link.
     ![hw db endpoint](./images/hw-db-endpoint.png " hw db endpoint")
 
-4. Save the Hostname in your notepad for use with OAC
+4. Save the Hostname in your notepad for use with OAC in a later lab.
     Example: **hwdb.sub09012...hwvcn.oraclevcn.com**
 
-**Congratulations! You have successfully finished the Lab. Please proceed to the next lab.**
+**Congratulations! You have successfully finished this Lab. Please proceed to the next lab.**
 
 
 ## Acknowledgements
